@@ -1,21 +1,22 @@
-# list-utils
-> A plugin for [Oh My Fish](https://www.github.com/oh-my-fish/oh-my-fish).
-
 [![GPL License](https://img.shields.io/badge/license-GPL-blue.svg?longCache=true&style=flat-square)](/LICENSE)
 [![Fish Shell Version](https://img.shields.io/badge/fish-v2.7.1-blue.svg?style=flat-square)](https://fishshell.com)
 [![Oh My Fish Framework](https://img.shields.io/badge/Oh%20My%20Fish-Framework-blue.svg?style=flat-square)](https://www.github.com/oh-my-fish/oh-my-fish)
 
-<br/>
+# list-utils
 
-## Description
+> A plugin for [Oh My Fish](https://www.github.com/oh-my-fish/oh-my-fish)
 
 Get notified when packages are added or removed from repositories upon updating; and filter the output of `apt list/search`.
 
-### Usage
+### Motivation
 
-`"apt list/search [options] packages ...`
+This plugin is intended to allow the user to keep track of changes in termux's package repository, as I've yet to find another tool that allows one to do so.
 
-## Options
+## Usage
+
+`apt list/search [options] packages ...`
+
+### Options
 
 ```
 -n/--new [package] ...

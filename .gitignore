@@ -1,0 +1,6 @@
+*
+!.gitignore
+!README.md
+!LICENSE
+!*.fish
+dependency.fish
